@@ -90,7 +90,8 @@ function playRound(hChoice,cChoice)
     else
     return 
 }
-
+function playGame()
+{
 let ver,hsc=0,csc=0,i
     do{
     const humanSelection=getHumanChoice()
@@ -114,4 +115,5 @@ let ver,hsc=0,csc=0,i
      }
     }
     while(hsc!=3||csc!=3)
-
+}
+playGame()
