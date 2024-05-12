@@ -1,0 +1,47 @@
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intrebare
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+}
+
+.butoane
+{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+.piatra
+{
+    color: wheat;
+    background-color: black;
+    margin: 30px;
+    width: 150px;
+    height: 50px;
+}
+
+.hartie
+{
+    background-color: wheat;
+    color: black;
+    margin: 30px;
+    width: 150px;
+    height: 50px;
+}
+
+.foarfeca
+{
+    background-color:brown;
+    color:aquamarine;
+    margin: 30px;
+    width: 150px;
+    height: 50px;
+}

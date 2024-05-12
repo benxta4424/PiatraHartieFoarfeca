@@ -1,10 +1,5 @@
 
 
-function getHumanChoice()
-{
-    let humanChoice=prompt("Piatra,Hartie sau Foarfeca?")
-    return humanChoice
-}
 
 function getComputerChoice()
 {
@@ -92,7 +87,7 @@ function playRound(hChoice,cChoice)
 }
 function playGame()
 {
-let ver,hsc=0,csc=0,i
+let ver,hsc=0,csc=0
     do{
     const humanSelection=getHumanChoice()
     const computerSelection=getComputerChoice()
