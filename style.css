@@ -16,7 +16,7 @@
 {
     display: flex;
     justify-content: center;
-    margin: 100px;
+    margin: 50px;
 }
 
 .piatra
@@ -44,4 +44,45 @@
     margin: 30px;
     width: 150px;
     height: 50px;
+}
+
+.scor
+{
+    display: flex;
+    gap:30px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    
+}
+
+#om
+{
+    display: flex;
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+}
+#computer
+{
+    display: flex;
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.tinescorul
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.egal
+{
+    display: flex;
+    justify-content: center;
 }
