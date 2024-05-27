@@ -47,6 +47,7 @@ function validare()
                 scorEg++
 
             updateScoruri()
+            verificaWIn()
             
     })
 
@@ -61,6 +62,7 @@ function validare()
             scorEg++
 
         updateScoruri()
+        verificaWIn()
         
     })
 
@@ -75,6 +77,7 @@ function validare()
             scorEg++
 
         updateScoruri()
+        verificaWIn()
         
     })
     
@@ -105,17 +108,22 @@ function verificaWIn()
         {
             const winner=document.querySelector('.winner')
             winner.textContent='Ai castigat!'
+            alert('Ai castigat!')
+            resetGame()
         }
     else if(scorCalc>=5)
         {
             const winner=document.querySelector('.winner')
             winner.textContent='AI pierdut!'
+            alert('Ai Pierdut!')
+            resetGame()
         }
 }
+
 function play()
 {
    validare()
-   verificaWIn()
+
 }
 
 play()
